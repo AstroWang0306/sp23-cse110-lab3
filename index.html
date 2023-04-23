@@ -5,55 +5,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="favicon.png">
-  </head>
-  <body>
-    <header>
-      <h1>Sample Team Meeting Minutes</h1>
-      <nav>
-        <ul>
-          <li><a href="#attendance">Attendance</a></li>
-          <li><a href="#agenda">Agenda</a></li>
-          <li><a href="#old-business">Old Business</a></li>
-          <li><a href="#new-business">New Business</a></li>
-          <li><a href="#misc">Miscellaneous</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section id="attendance">
-        <h2>Attendance</h2>
-        <ul>
-          <li>Astro Wang</li>
-          <li>Justin Wi</li>
-          <li>Sean Change</li>
-        </ul>
-      </section>
-      <section id="agenda">
-        <h2>Agenda</h2>
-        <ol>
-          <li>Discuss progress on project X</li>
-          <li>Brainstorm new ideas for project Y</li>
-          <li>Assign tasks for next week</li>
-        </ol>
-      </section>
-      <section id="old-business">
-        <h2>Old Business</h2>
-        <ul>
-          <li>Task A was completed</li>
-          <li>Task B was not completed</li>
-          <li>Discussion on Task C was tabled for next week</li>
-        </ul>
-      </section>
-      <section id="new-business">
-        <h2>New Business</h2>
-        <ul>
-          <li>Project A was added to the agenda</li>
-          <li>Project B was assigned to Jane Smith</li>
-        </ul>
-      </section>
-      <section id="misc">
-        <h2>Miscellaneous</h2>
-        <p>Astro presented a diagram of the proposed architecture for project X.</p>
-      </section>
-  </body>
-</html>
+    <style>
+        /* apply colors to your HTML elements */
+  body {
+    color: #333;
+    background-color: #f5f5f5;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #555;
+  }
+  a {
+    color: #337ab7;
+  }
+  
+  /* apply background styles to your elements */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* units of measurement for sizing and spacing your elements */
+  /* Use 3 unique relative units total */
+  /* Use 3 unique absolute units total */
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+  section {
+    padding: 2rem;
+    margin-bottom: 2rem;
+  }
+  ul {
+    margin-left: 1rem;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  /* configure the containers that holds your HTML content */
+  /* (long and short refer to longhand and shorthand syntax and should give the same results.
+     They’re simply different ways to declare your style rules, use at least one of each syntax.
+     You must use both long and short hand notations for each of the following: margin, padding, border) */
+  /* spacing between html elements */
+  /* Long (margin-top, margin-bottom, margin-left, margin-right) */
+  /* Short (margin: <top> <right> <bottom> <left>) */
+  /* Auto margins: margin: auto */
+  .container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* spacing within html elements */
+  /* Long (padding-top, padding-bottom, padding-left, padding-right) */
+  /* Short (padding: <top> <right> <bottom> <left>) */
+  section {
+    padding-top: 3rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding: 3rem 2rem;
+  }
+  
+  /* borders around html elements */
+  /* hint: apply borders before testing out padding and margin to better understand the difference between the two */
+  /* border-style */
+  /* border-color */
+  /* border-width */
+  /* border-radius */
+  section {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+  }
+  
+  /* style your text */
+  /* color */
+  /* text-decoration */
+  /* text-align */
+  h1 {
+    text-align
+      }
